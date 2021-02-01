@@ -12,7 +12,7 @@ export default class App extends Component {
     if (e.key === "Enter") {
       await axios
         .get(
-          `http://api.openweathermap.org/data/2.5/weather?q=${this.state.city}&appid=32d462d77842e2ab135ad20a99e208b1`,
+          `https://api.openweathermap.org/data/2.5/weather?q=${this.state.city}&appid=32d462d77842e2ab135ad20a99e208b1`,
           {
             headers: {
               Accept: "application/json",
